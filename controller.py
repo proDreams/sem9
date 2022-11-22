@@ -1,6 +1,7 @@
 import view
 import model
 
+
 def run():
     while True:
         num = view.print_menu()
@@ -8,3 +9,5 @@ def run():
             model.show_file()
         elif num == '2':
             model.add_line()
+        elif num == '0':
+            break

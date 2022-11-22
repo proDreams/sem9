@@ -1,7 +1,7 @@
 def print_file(line):
     print('id | Имя | Фамилия | Дата рождения | Должность')
     for i in line:
-        print(i)
+        print(*i.strip().split(';'))
 
 
 def print_menu():

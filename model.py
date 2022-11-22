@@ -11,4 +11,4 @@ def show_file():
 def add_line():
     with open("file.csv", "a", encoding="utf-8") as f:
         data = view.input_data()
-        f.write(f'{data}\n')
+        f.write(f'{data}')
