@@ -8,3 +8,5 @@ def run():
             model.show_file()
         elif num == '2':
             model.add_line()
+        else:
+            break
